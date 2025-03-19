@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: linear-gradient(to right, rgb(0, 0, 0),#3533cd);
+    font-family: "Sigmar", serif;
+    margin: 0;
+    font-size: 15px;
+
+}
+
+#menusuperior {
+  
+    font-family: "Anton", sans-serif;
+    padding: 10px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    color: white;
+}
+
+.semborda{
+        font-family: "Roboto", sans-serif;
+        border: none;
+        background: black;
+        color: white;
+        font-size: 30px;
+    }
+
+.botaolateral {
+    border: none;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 50px;
+    height: 50px;       
+    font-size: 50px;
+}
+
+#menulateral{
+    justify-content: start;
+    background: black;
+    color: white;
+    padding-bottom: 100px;
+
+   
+   
+
+}
+
+ #menulateral ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+ }
+
+ #menulateral li{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+ }
+
+ #menulateral svg{
+    font-size: 40px;
+    margin-right: 12px;
+    margin-top: 100px;
+    padding: auto;
+ }
+
+#menugeral { 
+    display: flex;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.cadastro{
+    font-family: "Roboto", sans-serif;
+    background:black;
+    margin: auto;
+    padding: 70px;
+    border-radius: 80px;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.cadastro h2{
+    text-align: center;
+}
+
+.cadastro ul{
+    
+    text-align:center;
+    
+    padding: 0;
+
+}
+
+
+
+
+.botaoCadastrar{
+    border-color: white;
+    border-radius: 100px;
+    color:rgb(19, 18, 18);
+    background-color: #f1e6e6;
+}
+    
+    .botaoLogar{
+        border-color: white;
+        border-radius: 100px;
+        color:rgb(19, 18, 18);
+        background-color: #f1e6e6;
+    
+    }
+        
+    .cadastro ::placeholder{
+
+        color: white
+    }
+    
+
+.cadastro input{
+    margin-left: 10px;
+    /* width: 100%; */
+}
+.botoesCadastros{
+
+    display:flex;
+    justify-content: space-between;
+}
